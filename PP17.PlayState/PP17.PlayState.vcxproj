@@ -70,8 +70,8 @@
   </ImportGroup>
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
-    <IncludePath>C:\Users\JWS\Desktop\실습\include;$(IncludePath)</IncludePath>
-    <LibraryPath>C:\Users\JWS\Desktop\실습\lib\x64;$(LibraryPath)</LibraryPath>
+    <IncludePath>C:\Users\JWS\Desktop\최적화\include;$(IncludePath)</IncludePath>
+    <LibraryPath>C:\Users\JWS\Desktop\최적화\lib\x64;$(LibraryPath)</LibraryPath>
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <ClCompile>
@@ -124,7 +124,6 @@
   <ItemGroup>
     <ClCompile Include="Enemy.cpp" />
     <ClCompile Include="Game.cpp" />
-    <ClCompile Include="GameObject.cpp" />
     <ClCompile Include="GameStateMachine.cpp" />
     <ClCompile Include="InputHandler.cpp" />
     <ClCompile Include="main.cpp" />
